@@ -1,38 +1,73 @@
 .App {
   text-align: center;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Ind {
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Sco{
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.ques{
+  cursor: pointer;
+}
+
+.opt{
+  cursor: pointer;
+}
+
+.question-card {
+  margin: 0 auto;
+  background-color: grey;
+  padding: 15px;
+  border-radius: 15px;
+  color: whitesmoke;
+  width: 80%;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  background-color: darkgray;
+  padding: 15px;
+  border: 3px solid white;
+  border-radius: 20px;
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+.question-text{
+  color:rgb(30, 30, 182);
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.final-results{
+  margin: 0 auto;
+  background-color: grey;
+  padding: 15px;
+  border-radius: 15px;
+  color: whitesmoke;
+  width: 50%;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+button{
+  background-color: aqua;
+  border: none;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  padding: 16px 24px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 33px;
+  margin-top: 5px;
 }
